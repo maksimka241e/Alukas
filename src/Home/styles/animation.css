@@ -1,0 +1,12 @@
+@keyframes open {
+    0%{ 
+        transform: translateX(-300px);
+        transition: 0.3s;
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        transition: 0.3s;
+        opacity: 1;
+    }
+}

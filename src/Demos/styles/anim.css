@@ -1,0 +1,87 @@
+/* первый ряд */
+.DemosCard1{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.DemosCard1.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+
+.DemosCard2{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.DemosCard2.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.DemosCard3{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.DemosCard3.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* Второй ряд */
+.DemosCard4{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.DemosCard4.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+
+.DemosCard5{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.DemosCard5.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.DemosCard6{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.DemosCard6.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* Третий ряд */
+.DemosCard7{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.DemosCard7.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+
+.DemosCard8{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.DemosCard8.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.DemosCard9{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.DemosCard9.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}

@@ -1,0 +1,124 @@
+.ElegantBlock{
+    background-size: cover;
+    resize: both;
+}
+.ElegantBlock1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 75vh;
+    padding: 10px;
+    background-size: cover;
+    resize: both;
+}
+.ElegantTitle{
+    text-align: center;
+    font-family: Jost;
+    font-weight: 400;
+    color: #222222;
+    font-size: 36px;
+    margin: 0;
+}
+.ElegantText1{
+    text-align: center;
+    font-family: Jost;
+    font-weight: 300;
+    color: #222222a3;
+    font-size: 18px;
+}
+.ElegantBtn{
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Jost;
+    font-weight: 200;
+    color: #222222;
+    font-size: 17px;
+    background: none;
+    border: 1px solid #222222;
+    padding: 10px 20px 10px 20px;
+    transition: 0.3s all;
+}
+.ElegantBtn:hover{
+    background: #222222;
+    color: #fff;
+    transition: 0.3s all;
+}
+.ElegantBtn:focus{
+    background: #222222;
+    color: #fff;
+    transition: 0.3s all;
+}
+.ElegantBlock2{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CDB380;
+}
+.ElegantTitle1{
+    text-align: center;
+    font-family: Jost;
+    font-weight: 100;
+    padding: 15px;
+    color: #fff;
+    font-size: 17px;
+}
+.ElegantTitle2{
+    text-align: center;
+    font-family: Jost;
+    font-weight: 100;
+    padding: 15px;
+    color: #fff;
+    font-size: 17px;
+}
+.ElegantTitle3{
+    text-align: center;
+    font-family: Jost;
+    font-weight: 100;
+    padding: 15px;
+    color: #fff;
+    font-size: 17px;
+}
+.ElegantTitle4{
+    text-align: center;
+    font-family: Jost;
+    font-weight: 100;
+    padding: 15px;
+    color: #fff;
+    font-size: 17px;
+}
+@media(max-width:1315px){
+    .ElegantBtn{
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:750px){
+    .ElegantBtn{
+        margin-bottom: 60px;
+    }
+}
+
+@media(max-width:360px){
+    .ElegantTitle1{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .ElegantTitle2{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .ElegantTitle3{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .ElegantTitle4{
+        font-size: 14px;
+        padding: 10px;
+    }
+
+}
