@@ -2,8 +2,6 @@
 
 
 
-
-
 .ElegantBlock{
     background-size: cover;
     resize: both;
@@ -128,6 +126,8 @@
     }
 
 }
+
+
 
 
 
@@ -776,6 +776,12 @@ body{
     width: auto;
 }
 .homeImg{
+    width: 100%;
+    max-width: 204px;
+    width: 100%;
+    min-width: 100px;
+    height: 100%;
+    padding-right: 10px;
 }
 .homeBlock2{
     display: flex;
@@ -1074,7 +1080,7 @@ body{
     }
     .Modalhome {
         display: flex;
-        width: 100%;
+        width: 95%;
         margin: 0 auto;
         background: #ffffff;
         padding: 10px;
