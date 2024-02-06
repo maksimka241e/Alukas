@@ -8,7 +8,10 @@ function closeModal(){
             this.block1 = adaptiveHomeBlockBlack
         }
 
-        render1(){this.block.classList.remove('active')}
+        render1(){
+            this.block.classList.remove('active')
+            document.body.style.overflow = 'initial'
+        }
 
         render2(){this.block1.style.display = 'none'}
 
@@ -29,7 +32,10 @@ function closeModal1(){
             this.block1 = adaptiveHomeBlockBlack
         }
 
-        render1(){this.block.classList.remove('active')}
+        render1(){
+            this.block.classList.remove('active') 
+            document.body.style.overflow = 'initial'
+        }
 
         render2(){this.block1.style.display = 'none'}
 

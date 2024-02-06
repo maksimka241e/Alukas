@@ -1,0 +1,18 @@
+.BuilderBlock1{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.BuilderBlock1.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+.BuilderBlock2{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.BuilderBlock2.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
