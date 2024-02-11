@@ -3,8 +3,6 @@
     width: 100%;
     background: #FDFAF9;
     padding-top: 100px;
-    padding-right: 10px;
-    padding-left: 10px;
     padding-bottom: 20px;
     justify-content: center;
 }
@@ -93,7 +91,6 @@
 @media(max-width:1450px){
     .BuilderBlock{
         display: flex;
-        width: 98.6%;
 }
 }
 

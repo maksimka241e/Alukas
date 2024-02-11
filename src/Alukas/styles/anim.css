@@ -1,0 +1,55 @@
+.AlukasTitle{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.AlukasTitle.active{
+    transform: translateY(0);
+    opacity: 0.9;
+} 
+.AlukasText{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.AlukasText.active{
+    transform: translateY(0);
+    opacity: 0.9;
+} 
+/* imges */
+.AlukasBlockImg{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.AlukasBlockImg.active{
+    transform: translateY(0);
+    opacity: 0.9;
+} 
+.AlukasBlockImg1{
+    transition: 1s all ease;
+    transform:  translateY(40px);
+    opacity: 0;
+}
+.AlukasBlockImg1.active{
+    transform: translateY(0);
+    opacity: 0.9;
+} 
+.AlukasBlockImg2{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.AlukasBlockImg2.active{
+    transform: translateY(0);
+    opacity: 0.9;
+} 
+.AlukasBlockImg3{
+    transition: 1s all ease;
+    transform:  translateY(40px);
+    opacity: 0;
+}
+.AlukasBlockImg3.active{
+    transform: translateY(0);
+    opacity: 0.9;
+} 

@@ -1,0 +1,138 @@
+.SalesTitle{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.SalesTitle.active{
+    transform: translateX(0);
+    opacity: 0.9;
+} 
+.SalesText{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.SalesText.active{
+    transform: translateX(0);
+    opacity: 0.9;
+} 
+/* block1 */
+.SalesBlockMinContent1{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.SalesBlockMinContent1.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* block2 */
+.SalesBlockMinContent2{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.SalesBlockMinContent2.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/* block3 */
+.SalesBlockMinContent3{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.SalesBlockMinContent3.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* block4 */
+.SalesBlockMinContent4{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.SalesBlockMinContent4.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* block5 */
+.SalesBlockMinContent5{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.SalesBlockMinContent5.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/* block6 */
+.SalesBlockMinContent6{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.SalesBlockMinContent6.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* block7 */
+.SalesBlockMinContent7{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.SalesBlockMinContent7.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* block8 */
+.SalesBlockMinContent8{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.SalesBlockMinContent8.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/* block9 */
+.SalesBlockMinContent9{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.SalesBlockMinContent9.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* block10 */
+.SalesBlockMinContent10{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.SalesBlockMinContent10.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* block11 */
+.SalesBlockMinContent11{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.SalesBlockMinContent11.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/* block12 */
+.SalesBlockMinContent12{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.SalesBlockMinContent12.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}

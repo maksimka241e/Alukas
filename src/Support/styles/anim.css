@@ -1,0 +1,98 @@
+.SupportTitle{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.SupportTitle.active{
+    transform: translateX(0);
+    opacity: 0.9;
+} 
+.SupportText{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.SupportText.active{
+    transform: translateX(0);
+    opacity: 0.9;
+} 
+/* img */
+.SupportBlockMinImg{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.SupportBlockMinImg.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/* img1 */
+.SupportBlockMinImg1{
+    transition: 1s all ease;
+    transform:  translateY(40px);
+    opacity: 0;
+}
+.SupportBlockMinImg1.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/* img2 */
+.SupportBlockMinImg2{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.SupportBlockMinImg2.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/* img3 */
+.SupportBlockMinImg3{
+    transition: 1s all ease;
+    transform:  translateY(40px);
+    opacity: 0;
+}
+.SupportBlockMinImg3.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/* img4 */
+.SupportBlockMinImg4{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.SupportBlockMinImg4.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/* img5 */
+.SupportBlockMinImg5{
+    transition: 1s all ease;
+    transform:  translateY(40px);
+    opacity: 0;
+}
+.SupportBlockMinImg5.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/* img6 */
+.SupportBlockMinImg6{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.SupportBlockMinImg6.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/* img7 */
+.SupportBlockMinImg7{
+    transition: 1s all ease;
+    transform:  translateY(40px);
+    opacity: 0;
+}
+.SupportBlockMinImg7.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}

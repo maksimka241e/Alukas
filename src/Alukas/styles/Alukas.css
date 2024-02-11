@@ -1,0 +1,76 @@
+.AlukasBlock{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background:rgb(246, 241, 239);
+    justify-content: center;
+    align-items: center;
+}
+/* block1 */
+.AlukasBlockTitle{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.AlukasTitle{
+    font-size: 40px;
+    color: #222222e1;
+    font-family: Jost;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+.AlukasText{
+    font-size: 18px;
+    font-family: Jost;
+    margin: 5px;
+    width: 70%;
+    text-align: center;
+    font-weight: 400;
+    color: #222222c5;
+}
+/* block2 */
+.AlukasAllImg{
+    max-width: 320px;
+    height: 100%;
+    cursor: pointer;
+    width: 100%;
+    -webkit-box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
+-moz-box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
+box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
+    transition: 0.5s;
+}
+.AlukasBlockContent{
+    padding: 10px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: auto auto auto auto;
+    padding-bottom: 70px;
+}
+@media (max-width: 1450px){
+.AlukasBlock {
+    display: flex;
+}
+}
+@media(max-width: 768px){
+.AlukasBlockContent{
+    gap: 40px;
+    grid-template-columns: auto;
+}
+.AlukasTitle{
+    font-size: 30px;
+}
+.AlukasText{
+    font-size: 16px;
+}
+}
+@media(max-width:570px){
+.AlukasText{
+    width: 100%;
+}
+}
