@@ -13,6 +13,7 @@ function closeModal(){
             this.block.classList.remove('active')
             document.body.style.overflowY = 'initial'
             this.html.style.overflowY = 'initial'
+            document.body.style.position = 'initial'
         }
 
         render2(){this.block1.style.display = 'none'}
@@ -39,6 +40,7 @@ function closeModal1(){
             this.block.classList.remove('active') 
             document.body.style.overflowY = 'initial'
             this.html.style.overflowY = 'initial'
+            document.body.style.position = 'initial'
         }
 
         render2(){this.block1.style.display = 'none'}
