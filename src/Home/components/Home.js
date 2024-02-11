@@ -68,7 +68,7 @@ ClickBtn.run()
 
 function OpenModal(){
     adaptiveHomeBlock.classList.add('active')
-    document.body.style.overflow = 'hidden'
+    document.body.style.overflowY = 'hidden'
     adaptiveHomeBlockBlack.style.display = 'block'
 }
 
