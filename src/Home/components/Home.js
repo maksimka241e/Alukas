@@ -67,8 +67,10 @@ const ClickBtn = new addEventClick
 ClickBtn.run()
 
 function OpenModal(){
+    let htmlE = document.querySelector('html')
     adaptiveHomeBlock.classList.add('active')
     document.body.style.overflowY = 'hidden'
+    htmlE.style.overflowY = 'hidden'
     adaptiveHomeBlockBlack.style.display = 'block'
 }
 
