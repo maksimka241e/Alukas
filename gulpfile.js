@@ -28,6 +28,7 @@ async function includeHTML(){
     '!Pages.html',
     '!Sales.html',
     '!Features.html',
+    '!Powerful.html',
     '!Core.html',
     '!Customers.html',
     '!Questions.html',

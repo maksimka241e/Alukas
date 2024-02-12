@@ -1,0 +1,46 @@
+.PowerfulBlockMin1{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.PowerfulBlockMin1.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.PowerfulBlockMin2{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.PowerfulBlockMin2.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.PowerfulBlock2{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.PowerfulBlock2.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/*  */
+.BlockPowerfulImg1{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.BlockPowerfulImg1.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+.BlockPowerfulImg2{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.BlockPowerfulImg2.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
