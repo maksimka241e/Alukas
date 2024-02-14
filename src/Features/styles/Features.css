@@ -1,0 +1,108 @@
+.FeaturesBlock{
+    display: flex;
+    flex-direction: column;
+    background: #FDFAF9;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+/* block1 */
+.FeaturesBlock1{
+    padding-top: 90px;
+    padding-right: 10px;
+    padding-bottom: 70px;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.FeaturesTitle{
+    font-size: 40px;
+    color:#222222e1;
+    font-family: Jost;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+.FeaturesText{
+    font-size: 20px;
+    color:#222222b8;
+    font-family: Jost;
+    text-align: center;
+    font-weight: 400;
+    margin: 5px;
+    width: 100%;
+}
+/* block2 */
+.FeaturesBlock2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.Features_allBorder{
+    border-radius: 10px;
+    -webkit-box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
+-moz-box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
+box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
+}
+/* min1 */
+.FeaturesBlockMin1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+}
+.FeaturesBlock2Img1{
+    width: 100%;
+    max-width: 435px;
+    max-height: 710px;
+    height: 100%;
+    
+}
+.FeaturesBlock2Img4{
+    width: 100%;
+    max-width: 435px;
+    max-height: 375px;
+    height: 100%;
+}
+/* min2 */
+.FeaturesBlockMin2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+}
+.FeaturesBlock2Img2{
+    width: 100%;
+    max-width: 435px;
+    max-height: 406px;
+    height: 100%;
+}
+.FeaturesBlock2Img5{
+    width: 100%;
+    max-width: 435px;
+    max-height: 710px;
+    height: 100%;
+}
+/* min3 */
+.FeaturesBlockMin3{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+}
+.FeaturesBlock2Img3{
+    width: 100%;
+    max-width: 435px;
+    max-height: 563px;
+    height: 100%;
+}
+.FeaturesBlock2Img6{
+    width: 100%;
+    max-width: 435px;
+    max-height: 522px;
+    height: 100%;
+}

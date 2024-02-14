@@ -17,6 +17,7 @@ const paths = {
 async function includeHTML(){
   return gulp.src([
     '*.html',
+    '!Preloader.html',
     '!Home.html',
     '!Elegant.html',
     '!Demos.html',
