@@ -156,28 +156,24 @@ box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
 .FeaturesBlockMin_All1{
     display: flex;
     flex-direction: row;
-    padding: 10px;
     gap: 20px;
 }
 /* blockMin2 */
 .FeaturesBlockMin_All2{
     display: flex;
     flex-direction: row;
-    padding: 10px;
     gap: 20px;
 }
 /* blockMin3 */
 .FeaturesBlockMin_All3{
     display: flex;
     flex-direction: row;
-    padding: 10px;
     gap: 20px;
 }
 /* blockMin4 */
 .FeaturesBlockMin_All4{
     display: flex;
     flex-direction: row;
-    padding: 10px;
     gap: 20px;
 }
 @media(max-width:1150px){
@@ -198,19 +194,15 @@ box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
 }
 @media(max-width:768px) {
     .FeaturesBlockMin_All1{
-        padding: 0;
         flex-direction: column;
     }
     .FeaturesBlockMin_All2{
-        padding: 0;
         flex-direction: column;
     }
     .FeaturesBlockMin_All3{
-        padding: 0;
         flex-direction: column;
     }
     .FeaturesBlockMin_All4{
-        padding: 0;
         flex-direction: column;
     }
     .Features_allStyleText{
