@@ -1,0 +1,417 @@
+/* text */
+.FeaturesTitle{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.FeaturesTitle.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+.FeaturesText{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.FeaturesText.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* raight */
+.FeaturesBlock2Img3{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.FeaturesBlock2Img3.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+.FeaturesBlock2Img6{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.FeaturesBlock2Img6.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}  
+/* left */
+.FeaturesBlock2Img1{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.FeaturesBlock2Img1.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+.FeaturesBlock2Img4{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.FeaturesBlock2Img4.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}  
+/* up */
+.FeaturesBlock2Img2{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FeaturesBlock2Img2.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.FeaturesBlock2Img5{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FeaturesBlock2Img5.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/* block3 */
+/* allMin1 */
+/* raight */
+.FeaturesBlocks3Img1{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.FeaturesBlocks3Img1.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+.FeaturesBlocks3Title{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.FeaturesBlocks3Title.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}  
+.FeaturesBlocks3Text{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.FeaturesBlocks3Text.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* left */
+.FeaturesBlocks1Img1{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks1Img1.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+.FeaturesBlocks1Title{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks1Title.active{
+    transform: translateX(0);
+    opacity: 0.9;
+} 
+.FeaturesBlocks1Text{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks1Text.active{
+    transform: translateX(0);
+    opacity: 0.9;
+} 
+/* up */
+.FeaturesBlocks2Img1{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks2Img1.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.FeaturesBlocks2Title{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks2Title.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.FeaturesBlocks2Text{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks2Text.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/* allMin2 */
+/* raight */
+.FeaturesBlocks6Img1{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.FeaturesBlocks6Img1.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+.FeaturesBlocks6Title{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.FeaturesBlocks6Title.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}  
+.FeaturesBlocks6Text{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.FeaturesBlocks6Text.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* left */
+.FeaturesBlocks4Img1{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks4Img1.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+.FeaturesBlocks4Title{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks4Title.active{
+    transform: translateX(0);
+    opacity: 0.9;
+} 
+.FeaturesBlocks4Text{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks4Text.active{
+    transform: translateX(0);
+    opacity: 0.9;
+} 
+/* up */
+.FeaturesBlocks5Img1{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks5Img1.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.FeaturesBlocks5Title{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks5Title.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.FeaturesBlocks5Text{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks5Text.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/* allMin3 */
+/* raight */
+.FeaturesBlocks9Img1{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.FeaturesBlocks9Img1.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+.FeaturesBlocks9Title{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.FeaturesBlocks9Title.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}  
+.FeaturesBlocks9Text{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.FeaturesBlocks9Text.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* left */
+.FeaturesBlocks7Img1{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks7Img1.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+.FeaturesBlocks7Title{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks7Title.active{
+    transform: translateX(0);
+    opacity: 0.9;
+} 
+.FeaturesBlocks7Text{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks7Text.active{
+    transform: translateX(0);
+    opacity: 0.9;
+} 
+/* up */
+.FeaturesBlocks8Img1{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks8Img1.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.FeaturesBlocks8Title{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks8Title.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.FeaturesBlocks8Text{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks8Text.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/* allMin4 */
+/* raight */
+.FeaturesBlocks12Img1{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.FeaturesBlocks12Img1.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+.FeaturesBlocks12Title{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.FeaturesBlocks12Title.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}  
+.FeaturesBlocks12Text{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.FeaturesBlocks12Text.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* left */
+.FeaturesBlocks10Img1{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks10Img1.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+.FeaturesBlocks10Title{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks10Title.active{
+    transform: translateX(0);
+    opacity: 0.9;
+} 
+.FeaturesBlocks10Text{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks10Text.active{
+    transform: translateX(0);
+    opacity: 0.9;
+} 
+/* up */
+.FeaturesBlocks11Img1{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks11Img1.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.FeaturesBlocks11Title{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks11Title.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.FeaturesBlocks11Text{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FeaturesBlocks11Text.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
