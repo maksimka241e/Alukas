@@ -127,8 +127,6 @@
 
 
 
-
-
 /* styles.css */
 #preloader {
     position: fixed;
@@ -195,6 +193,8 @@
     background-position: 0% 50%;
   }
 }  
+
+
 .BuilderBlock1{
     transition: 1s all ease;
     transform:  translateX(-40px);
@@ -1144,7 +1144,7 @@ box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
 /* block3 */
 .FeaturesBlock3{
     padding: 10px;
-    margin-top: -20px;
+    margin-top: -10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1175,21 +1175,27 @@ box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
     display: flex;
     flex-direction: row;
     gap: 20px;
+    margin-bottom: 10px;
 }
 /* blockMin2 */
 .FeaturesBlockMin_All2{
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     gap: 20px;
+    margin-bottom: 10px;
 }
 /* blockMin3 */
 .FeaturesBlockMin_All3{
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     gap: 20px;
+    margin-bottom: 10px;
 }
 /* blockMin4 */
 .FeaturesBlockMin_All4{
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     gap: 20px;
