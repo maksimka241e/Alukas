@@ -1,5 +1,4 @@
 
-
 .ElegantBlock{
     background-size: cover;
     resize: both;
@@ -141,7 +140,7 @@
     background-image: linear-gradient(-45deg, rgba(6,147,227,1),rgb(155,81,224),rgba(6,147,227,1) 1%, rgb(155,81,224),rgba(6,147,227,1),rgb(155,81,224), 25%, rgba(6,147,227,1), rgb(155,81,224),rgba(6,147,227,1) 51%,rgb(155,81,224), rgba(6,147,227,1),rgb(155,81,224)  100%);
     -webkit-animation: AnimateBG 20s ease infinite;
             animation: AnimateBG 20s ease infinite;
-            opacity: 0.6; 
+            opacity: 0.9; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -195,6 +194,7 @@
     background-position: 0% 50%;
   }
 }  
+
 .AlukasBlock{
     display: flex;
     flex-direction: column;
@@ -342,6 +342,179 @@ box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
     transform: translateY(-10px);
     transition: 0.5s;
 }
+.BuilderBlock1{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.BuilderBlock1.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+.BuilderBlock2{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.BuilderBlock2.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+.BuilderBlock{
+    display: flex;
+    width: 100%;
+    background: #FDFAF9;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+/* block1 */
+.BuilderBlock1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: baseline;
+}
+.BuilderBlock1Title{
+    font-size: 40px;
+    color: #222222ea;
+    margin: 30px 0 0 0;
+    font-family: Jost;
+    font-weight: 200;
+    text-align: start;
+}
+.BuilderBlock1Text{
+    font-size: 20px;
+    color: #222222c5;
+    width: 100%;
+    font-family: Jost;
+    font-weight: 200;
+    text-align: start;
+}
+.BuilderBlock1Btn:hover {
+    background: #222222ea;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+}
+.BuilderBlock1Btn:focus {
+    background: #222222ea;
+    color: #fff;
+    transition: 0.3s all;
+}
+.BuilderBlock1Btn {
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Jost;
+    font-weight: 200;
+    color: #222222ea;
+    font-size: 17px;
+    background: none;
+    border: 1px solid #222222ea;
+    padding: 10px 20px;
+    transition: all 0.3s ease 0s;
+}
+/* BlockMin */
+.BuilderBlock1MinBlock{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+.BuilderColor{
+    font-size: 16px;
+    color: #222222c5;
+    font-family: Jost;
+    font-weight: 200;
+}
+.BilderMin1Title2{
+    margin-top: -10px;
+}
+.BilderMin1Title3{
+    margin-top: -10px;
+}
+/* block2 */
+.BuilderBlock2{
+    width: 40%;
+}
+.BuilderBlock2Img{
+    display: flex;
+    width: 95%;
+    max-width: 697px;
+    height: auto;
+    min-width: 550px;
+}
+@media(max-width:1380px){
+.BuilderBlock2Img{
+    min-width: 450px;
+}  
+}
+@media(max-width:1450px){
+    .BuilderBlock{
+        display: flex;
+}
+}
+
+@media(max-width:1130px){
+    .BuilderBlock{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .BuilderBlock2Img{
+        min-width: 550px;
+    }
+    .BuilderBlock1{
+        width: 65%;
+    }
+    .BuilderBlock2{
+        margin-top: 50px;
+        width: 65%;
+    }
+}
+@media(max-width:768px){
+    .BuilderBlock2Img{
+        min-width: 450px;
+    }
+    .BuilderBlock1{
+        width: 80%;
+        margin-left: 0px;
+    }
+    .BuilderBlock2{
+        margin-top: 20px;
+        width: 80%;
+    }
+}
+@media(max-width:520px){
+    .BuilderBlock2Img{
+        min-width: 300px;
+    }
+    .BuilderBlock1{
+        width: 89%;
+    }
+    .BuilderBlock1Text{
+        font-size: 18px;
+    }
+    .BuilderBlock1Title{
+        font-size: 30px;
+    }
+    .BuilderColor{
+        font-size: 14px;
+    }
+    .BuilderBlock2{
+        margin-top: 20px;
+        width: 89%;
+    }
+}
+@media(max-width:340px){
+    .BuilderBlock2Img{
+        min-width: 200px;
+    } 
+}
+
+
+
 /* первый ряд */
 .DemosCard1{
     transition: 1s all ease;
@@ -1109,697 +1282,6 @@ box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
     padding: 10px;
 }
 
-.PowerfulBlockMin1{
-    transition: 1s all ease;
-    transform:  translateY(-40px);
-    opacity: 0;
-}
-.PowerfulBlockMin1.active{
-    transform: translateY(0);
-    opacity: 0.9;
-}
-.PowerfulBlockMin2{
-    transition: 1s all ease;
-    transform:  translateY(-40px);
-    opacity: 0;
-}
-.PowerfulBlockMin2.active{
-    transform: translateY(0);
-    opacity: 0.9;
-}
-.PowerfulBlock2{
-    transition: 1s all ease;
-    transform:  translateY(-40px);
-    opacity: 0;
-}
-.PowerfulBlock2.active{
-    transform: translateY(0);
-    opacity: 0.9;
-}
-/*  */
-.BlockPowerfulImg1{
-    transition: 1s all ease;
-    transform:  translateX(-40px);
-    opacity: 0;
-}
-.BlockPowerfulImg1.active{
-    transform: translateX(0);
-    opacity: 0.9;
-}
-.BlockPowerfulImg2{
-    transition: 1s all ease;
-    transform:  translateX(40px);
-    opacity: 0;
-}
-.BlockPowerfulImg2.active{
-    transform: translateX(0);
-    opacity: 0.9;
-}
-.PowerfulBlock{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background: rgb(246, 241, 239);
-    width: 100%;
-}
-.PowerfulBlock1{
-    padding-top: 90px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-/* block1 */
-/* min1 */
-.PowerfulBlockMin1{
-    display: flex;
-    padding: 10px;
-    padding-right: 20px;
-    border-right: 1px solid #222222e1;;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.PowerfulTitle1{
-    color:#222222e1;
-    font-size: 48px;
-    font-family: Jost;
-    font-weight: 400;
-    margin: 0px;
-}
-.PowerfulTitle2{
-    font-size: 24px;
-    color: #222222e1;
-    font-family: Jost;
-    font-weight: 400;
-    width: 100%;
-    margin: 0px;
-}
-/* min2 */
-.PowerfulBlockMin2{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    padding-left: 20px;
-    align-items: center;
-    justify-content: center;
-}
-.PowerfulTitle3{
-    color:#222222e1;
-    font-size: 48px;
-    font-family: Jost;
-    font-weight: 400;
-    margin: 0px;
-}
-.PowerfulTitle4{
-    font-size: 24px;
-    color: #222222e1;
-    font-family: Jost;
-    font-weight: 400;
-    width: 100%;
-    margin: 0px;
-}
-/* block2 */
-.PowerfulBlock2{
-    padding-top: 10px;
-    padding-bottom: 20px;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
-.PowerfulText{
-    width: 35%;
-    text-align: center;
-    font-size: 18px;
-    color: #666666;
-}
-/* block3 */
-.PowerfulBlock3{
-    width: 90%;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.PowerfulImg1{
-    max-width: 770px;
-    width: 100%;
-    height: 100%;
-    min-width: 200px;
-}
-.PowerfulImg2{
-    max-width: 770px;
-    width: 100%;
-    height: 100%;
-    min-width: 200px;
-}
-@media(max-width:1200px){
-    .PowerfulText {
-        width: 95%;
-    }
-}
-@media(max-width:768px){
-    .PowerfulBlock3{
-        width: 90%;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-    }
-    .PowerfulImg1{
-        min-width: 400px;
-    }
-    .PowerfulImg2{
-        min-width: 400px;
-    }
-}
-@media(max-width:470px){
-    .PowerfulBlock1 {
-        padding-top: 90px;
-        width: 96%
-    }
-    .PowerfulBlock3{
-        width: 90%;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-    }
-    .PowerfulImg1{
-        min-width: 200px;
-    }
-    .PowerfulImg2{
-        min-width: 200px;
-    }
-}
-@media (max-width:405px){
-    .PowerfulTitle1{
-        font-size: 40px;
-    }
-    .PowerfulTitle2{
-        font-size: 15px;
-    }
-    .PowerfulTitle4{
-        font-size: 15px;
-    }
-    .PowerfulTitle3{
-        font-size: 40px;
-    }
-}
-@media(max-width:280px){
-    .PowerfulTitle2{
-        font-size: 15px;
-        width: 65%;
-    }
-    .PowerfulTitle4{
-        font-size: 15px;
-        width: 65%;
-    }
-}
-.SalesTitle{
-    transition: 1s all ease;
-    transform:  translateX(-40px);
-    opacity: 0;
-}
-.SalesTitle.active{
-    transform: translateX(0);
-    opacity: 0.9;
-} 
-.SalesText{
-    transition: 1s all ease;
-    transform:  translateX(40px);
-    opacity: 0;
-}
-.SalesText.active{
-    transform: translateX(0);
-    opacity: 0.9;
-} 
-/* block1 */
-.SalesBlockMinContent1{
-    transition: 1s all ease;
-    transform:  translateX(-40px);
-    opacity: 0;
-}
-.SalesBlockMinContent1.active{
-    transform: translateX(0);
-    opacity: 0.9;
-}
-/* block2 */
-.SalesBlockMinContent2{
-    transition: 1s all ease;
-    transform:  translateY(-40px);
-    opacity: 0;
-}
-.SalesBlockMinContent2.active{
-    transform: translateY(0);
-    opacity: 0.9;
-}
-/* block3 */
-.SalesBlockMinContent3{
-    transition: 1s all ease;
-    transform:  translateX(40px);
-    opacity: 0;
-}
-.SalesBlockMinContent3.active{
-    transform: translateX(0);
-    opacity: 0.9;
-}
-/* block4 */
-.SalesBlockMinContent4{
-    transition: 1s all ease;
-    transform:  translateX(-40px);
-    opacity: 0;
-}
-.SalesBlockMinContent4.active{
-    transform: translateX(0);
-    opacity: 0.9;
-}
-/* block5 */
-.SalesBlockMinContent5{
-    transition: 1s all ease;
-    transform:  translateY(-40px);
-    opacity: 0;
-}
-.SalesBlockMinContent5.active{
-    transform: translateY(0);
-    opacity: 0.9;
-}
-/* block6 */
-.SalesBlockMinContent6{
-    transition: 1s all ease;
-    transform:  translateX(40px);
-    opacity: 0;
-}
-.SalesBlockMinContent6.active{
-    transform: translateX(0);
-    opacity: 0.9;
-}
-/* block7 */
-.SalesBlockMinContent7{
-    transition: 1s all ease;
-    transform:  translateX(-40px);
-    opacity: 0;
-}
-.SalesBlockMinContent7.active{
-    transform: translateX(0);
-    opacity: 0.9;
-}
-/* block8 */
-.SalesBlockMinContent8{
-    transition: 1s all ease;
-    transform:  translateY(-40px);
-    opacity: 0;
-}
-.SalesBlockMinContent8.active{
-    transform: translateY(0);
-    opacity: 0.9;
-}
-/* block9 */
-.SalesBlockMinContent9{
-    transition: 1s all ease;
-    transform:  translateX(40px);
-    opacity: 0;
-}
-.SalesBlockMinContent9.active{
-    transform: translateX(0);
-    opacity: 0.9;
-}
-/* block10 */
-.SalesBlockMinContent10{
-    transition: 1s all ease;
-    transform:  translateX(-40px);
-    opacity: 0;
-}
-.SalesBlockMinContent10.active{
-    transform: translateX(0);
-    opacity: 0.9;
-}
-/* block11 */
-.SalesBlockMinContent11{
-    transition: 1s all ease;
-    transform:  translateY(-40px);
-    opacity: 0;
-}
-.SalesBlockMinContent11.active{
-    transform: translateY(0);
-    opacity: 0.9;
-}
-/* block12 */
-.SalesBlockMinContent12{
-    transition: 1s all ease;
-    transform:  translateX(40px);
-    opacity: 0;
-}
-.SalesBlockMinContent12.active{
-    transform: translateX(0);
-    opacity: 0.9;
-}
-.SalesBlockMinImg1:hover{
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
-.SalesBlockMinImg2:hover{
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
-.SalesBlockMinImg3:hover{
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
-.SalesBlockMinImg4:hover{
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
-.SalesBlockMinImg5:hover{
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
-.SalesBlockMinImg6:hover{
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
-.SalesBlockMinImg7:hover{
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
-.SalesBlockMinImg8:hover{
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
-.SalesBlockMinImg9:hover{
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
-.SalesBlockMinImg10:hover{
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
-.SalesBlockMinImg11:hover{
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
-.SalesBlockMinImg12:hover{
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
-
-.SalesBlock{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: rgb(246, 241, 239);
-}
-/* block1 */
-.SalesBlockTitle{
-    padding-top: 90px;
-    padding-right: 10px;
-    padding-bottom: 70px;
-    padding-left: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.SalesTitle{
-    font-size: 40px;
-    color:#222222e1;
-    font-family: Jost;
-    font-weight: 400;
-    text-align: center;
-    width: 100%;
-    margin: 0;
-}
-.SalesSpan{
-    font-size: 44px;
-    border-bottom: 3px solid #fcb900;
-    color: #222222;
-}
-.SalesText{
-    font-size: 18px;
-    font-family: Jost;
-    margin: 0px;
-    margin-top: 25px;
-    width: 70%;
-    text-align: center;
-    font-weight: 400;
-    color: #222222c5;
-}
-/* block2 */
-.SalesBlockContent{
-    padding: 10px;
-    display: grid; 
-    gap: 30px;
-    align-items: center;
-    justify-items: center;
-    grid-template-columns: auto auto auto;
-}
-/* SalesAllContent */
-.SalesAllStyleImg{
-    max-width: 466px;
-    width: 100%;
-    min-width: 200px;
-    border-radius: 10px;
-    transition: 0.5s;
-    cursor: pointer;
-    -webkit-box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
--moz-box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
-box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
-}
-.SalesAllStyleTitle{
-    color:#222222e1;
-    font-size: 24px;
-    font-family: Jost;
-    font-weight: 400;
-    margin: 5px;
-    width: 100%;
-}
-.SalesAllStyleText{
-    font-size: 18px;
-    color: #666666;
-    font-family: Jost;
-    font-weight: 400;
-    width: 100%;
-    margin: 5px;
-}
-.SalesBlockMargin{
-    margin-bottom: 0px;
-}
-@media(max-width:1100px){
-    .SalesAllStyleTitle{
-        font-size: 20px;
-    }
-    .SalesAllStyleText{
-        font-size: 15px;
-    } 
-}
-@media(max-width: 768px){
-    .SalesBlockContent{
-        padding: 10px;
-        display: flex;
-        width: 100%;
-        flex-direction: column; 
-        align-items: center;
-        justify-items: center;
-    }
-    .SalesAllStyleTitle{
-        font-size: 24px;
-    }
-    .SalesAllStyleText{
-        font-size: 18px;
-    } 
-    .SalesTitle{
-        font-size: 36px;
-    }
-    .SalesSpan{
-        font-size: 38px;
-}
-}
-/* SalesBlock1 */
-.SalesBlockMinContent1{
-    padding: 5px;
-    max-width: 466px;
-    max-height: 406px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-/* SalesBlock2 */
-.SalesBlockMinContent2{
-    padding: 5px;
-    max-width: 466px;
-    max-height: 406px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-/* SalesBlock3 */
-.SalesBlockMinContent3{
-    padding: 5px;
-    max-width: 466px;
-    max-height: 406px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-/* SalesBlock4 */
-.SalesBlockMinContent4{
-    padding: 5px;
-    max-width: 466px;
-    max-height: 406px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-/* SalesBlock5 */
-.SalesBlockMinContent5{
-    padding: 5px;
-    max-width: 466px;
-    max-height: 406px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-/* SalesBlock6 */
-.SalesBlockMinContent6{
-    padding: 5px;
-    max-width: 466px;
-    max-height: 406px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-/* SalesBlock7 */
-.SalesBlockMinContent7{
-    padding: 5px;
-    max-width: 466px;
-    max-height: 406px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-/* SalesBlock8 */
-.SalesBlockMinContent8{
-    padding: 5px;
-    max-width: 466px;
-    max-height: 406px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-/* SalesBlock9 */
-.SalesBlockMinContent9{
-    padding: 5px;
-    max-width: 466px;
-    max-height: 406px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-/* SalesBlock10 */
-.SalesBlockMinContent10{
-    padding: 5px;
-    max-width: 466px;
-    max-height: 406px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-/* SalesBlock11 */
-.SalesBlockMinContent11{
-    padding: 5px;
-    max-width: 466px;
-    max-height: 406px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-/* SalesBlock12 */
-.SalesBlockMinContent12{
-    padding: 5px;
-    max-width: 466px;
-    max-height: 406px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-@media(max-width:490px){
-    .SalesAllStyleImg{
-        min-width: 100px;
-    }
-    .SalesAllStyleTitle{
-        width: auto;
-    }
-    .SalesAllStyleText{
-        width: auto;
-    }
-    .SalesBlockMinContent1{
-    width: 90%;
-    }
-    .SalesBlockMinContent2{
-    width: 90%;
-    }
-    .SalesBlockMinContent3{
-    width: 90%;
-    }
-    .SalesBlockMinContent4{
-    width: 90%;
-    }
-    .SalesBlockMinContent5{
-    width: 90%;
-    }
-    .SalesBlockMinContent6{
-    width: 90%;
-    }
-    .SalesBlockMinContent7{
-    width: 90%;
-    }
-    .SalesBlockMinContent8{
-    width: 90%;
-    }
-    .SalesBlockMinContent9{
-        width: 90%;  
-    }
-    .SalesBlockMinContent10{
-        width: 90%;  
-    }
-    .SalesBlockMinContent11{
-        width: 90%;  
-    }            
-    .SalesBlockMinContent12{
-        width: 90%;  
-    }
-}
-@media(max-width:380px){
-    .SalesAllStyleTitle{
-        font-size: 18px;
-    }
-    .SalesAllStyleText{
-        font-size: 15px;
-    }
-    .SalesTitle{
-        font-size: 32px;
-    }
-    .SalesSpan{
-        font-size: 34px;
-    }
-}
-
 @keyframes open {
     0%{ 
         transform: translateX(-300px);
@@ -2417,6 +1899,215 @@ html, body {
     --pls-newsletter-popup-border-left: 1px solid #e5e5e5;
     --pls-newsletter-popup-border-radius: 0px;
 }
+.PowerfulBlockMin1{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.PowerfulBlockMin1.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.PowerfulBlockMin2{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.PowerfulBlockMin2.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.PowerfulBlock2{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.PowerfulBlock2.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/*  */
+.BlockPowerfulImg1{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.BlockPowerfulImg1.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+.BlockPowerfulImg2{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.BlockPowerfulImg2.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+.PowerfulBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(246, 241, 239);
+    width: 100%;
+}
+.PowerfulBlock1{
+    padding-top: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+/* block1 */
+/* min1 */
+.PowerfulBlockMin1{
+    display: flex;
+    padding: 10px;
+    padding-right: 20px;
+    border-right: 1px solid #222222e1;;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.PowerfulTitle1{
+    color:#222222e1;
+    font-size: 48px;
+    font-family: Jost;
+    font-weight: 400;
+    margin: 0px;
+}
+.PowerfulTitle2{
+    font-size: 24px;
+    color: #222222e1;
+    font-family: Jost;
+    font-weight: 400;
+    width: 100%;
+    margin: 0px;
+}
+/* min2 */
+.PowerfulBlockMin2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.PowerfulTitle3{
+    color:#222222e1;
+    font-size: 48px;
+    font-family: Jost;
+    font-weight: 400;
+    margin: 0px;
+}
+.PowerfulTitle4{
+    font-size: 24px;
+    color: #222222e1;
+    font-family: Jost;
+    font-weight: 400;
+    width: 100%;
+    margin: 0px;
+}
+/* block2 */
+.PowerfulBlock2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.PowerfulText{
+    width: 35%;
+    text-align: center;
+    font-size: 18px;
+    color: #666666;
+}
+/* block3 */
+.PowerfulBlock3{
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.PowerfulImg1{
+    max-width: 770px;
+    width: 100%;
+    height: 100%;
+    min-width: 200px;
+}
+.PowerfulImg2{
+    max-width: 770px;
+    width: 100%;
+    height: 100%;
+    min-width: 200px;
+}
+@media(max-width:1200px){
+    .PowerfulText {
+        width: 95%;
+    }
+}
+@media(max-width:768px){
+    .PowerfulBlock3{
+        width: 90%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .PowerfulImg1{
+        min-width: 400px;
+    }
+    .PowerfulImg2{
+        min-width: 400px;
+    }
+}
+@media(max-width:470px){
+    .PowerfulBlock1 {
+        padding-top: 90px;
+        width: 96%
+    }
+    .PowerfulBlock3{
+        width: 90%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .PowerfulImg1{
+        min-width: 200px;
+    }
+    .PowerfulImg2{
+        min-width: 200px;
+    }
+}
+@media (max-width:405px){
+    .PowerfulTitle1{
+        font-size: 40px;
+    }
+    .PowerfulTitle2{
+        font-size: 15px;
+    }
+    .PowerfulTitle4{
+        font-size: 15px;
+    }
+    .PowerfulTitle3{
+        font-size: 40px;
+    }
+}
+@media(max-width:280px){
+    .PowerfulTitle2{
+        font-size: 15px;
+        width: 65%;
+    }
+    .PowerfulTitle4{
+        font-size: 15px;
+        width: 65%;
+    }
+}
 .SupportTitle{
     transition: 1s all ease;
     transform:  translateX(-40px);
@@ -2669,175 +2360,484 @@ box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
         min-width: 80px;
     }
 }
-.BuilderBlock1{
+.SalesTitle{
     transition: 1s all ease;
     transform:  translateX(-40px);
     opacity: 0;
 }
-.BuilderBlock1.active{
+.SalesTitle.active{
     transform: translateX(0);
     opacity: 0.9;
-}
-.BuilderBlock2{
+} 
+.SalesText{
     transition: 1s all ease;
     transform:  translateX(40px);
     opacity: 0;
 }
-.BuilderBlock2.active{
+.SalesText.active{
+    transform: translateX(0);
+    opacity: 0.9;
+} 
+/* block1 */
+.SalesBlockMinContent1{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.SalesBlockMinContent1.active{
     transform: translateX(0);
     opacity: 0.9;
 }
-.BuilderBlock{
-    display: flex;
-    width: 100%;
-    background: #FDFAF9;
-    padding-top: 100px;
-    padding-bottom: 20px;
-    justify-content: center;
+/* block2 */
+.SalesBlockMinContent2{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
 }
-/* block1 */
-.BuilderBlock1{
+.SalesBlockMinContent2.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/* block3 */
+.SalesBlockMinContent3{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.SalesBlockMinContent3.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* block4 */
+.SalesBlockMinContent4{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.SalesBlockMinContent4.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* block5 */
+.SalesBlockMinContent5{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.SalesBlockMinContent5.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/* block6 */
+.SalesBlockMinContent6{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.SalesBlockMinContent6.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* block7 */
+.SalesBlockMinContent7{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.SalesBlockMinContent7.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* block8 */
+.SalesBlockMinContent8{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.SalesBlockMinContent8.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/* block9 */
+.SalesBlockMinContent9{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.SalesBlockMinContent9.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* block10 */
+.SalesBlockMinContent10{
+    transition: 1s all ease;
+    transform:  translateX(-40px);
+    opacity: 0;
+}
+.SalesBlockMinContent10.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+/* block11 */
+.SalesBlockMinContent11{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.SalesBlockMinContent11.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+/* block12 */
+.SalesBlockMinContent12{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.SalesBlockMinContent12.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+.SalesBlockMinImg1:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.SalesBlockMinImg2:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.SalesBlockMinImg3:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.SalesBlockMinImg4:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.SalesBlockMinImg5:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.SalesBlockMinImg6:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.SalesBlockMinImg7:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.SalesBlockMinImg8:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.SalesBlockMinImg9:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.SalesBlockMinImg10:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.SalesBlockMinImg11:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.SalesBlockMinImg12:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.SalesBlock{
+    width: 100%;
     display: flex;
     flex-direction: column;
-    width: 40%;
-    margin-left: 50px;
+    align-items: center;
     justify-content: center;
-    align-items: baseline;
+    background: rgb(246, 241, 239);
 }
-.BuilderBlock1Title{
+/* block1 */
+.SalesBlockTitle{
+    padding-top: 90px;
+    padding-right: 10px;
+    padding-bottom: 70px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.SalesTitle{
     font-size: 40px;
-    color: #222222ea;
-    margin: 30px 0 0 0;
+    color:#222222e1;
     font-family: Jost;
-    font-weight: 200;
-    text-align: start;
-}
-.BuilderBlock1Text{
-    font-size: 20px;
-    color: #222222c5;
-    width: 100%;
-    font-family: Jost;
-    font-weight: 200;
-    text-align: start;
-}
-.BuilderBlock1Btn:hover {
-    background: #222222ea;
-    color: rgb(255, 255, 255);
-    transition: all 0.3s ease 0s;
-}
-.BuilderBlock1Btn:focus {
-    background: #222222ea;
-    color: #fff;
-    transition: 0.3s all;
-}
-.BuilderBlock1Btn {
-    cursor: pointer;
-    margin-top: 10px;
+    font-weight: 400;
     text-align: center;
+    width: 100%;
+    margin: 0;
+}
+.SalesSpan{
+    font-size: 44px;
+    border-bottom: 3px solid #fcb900;
+    color: #222222;
+}
+.SalesText{
+    font-size: 18px;
     font-family: Jost;
-    font-weight: 200;
-    color: #222222ea;
-    font-size: 17px;
-    background: none;
-    border: 1px solid #222222ea;
-    padding: 10px 20px;
-    transition: all 0.3s ease 0s;
-}
-/* BlockMin */
-.BuilderBlock1MinBlock{
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 30px;
-}
-.BuilderColor{
-    font-size: 16px;
+    margin: 0px;
+    margin-top: 25px;
+    width: 70%;
+    text-align: center;
+    font-weight: 400;
     color: #222222c5;
-    font-family: Jost;
-    font-weight: 200;
-}
-.BilderMin1Title2{
-    margin-top: -10px;
-}
-.BilderMin1Title3{
-    margin-top: -10px;
 }
 /* block2 */
-.BuilderBlock2{
-    width: 40%;
+.SalesBlockContent{
+    padding: 10px;
+    display: grid; 
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: auto auto auto;
 }
-.BuilderBlock2Img{
-    display: flex;
-    width: 95%;
-    max-width: 697px;
-    height: auto;
-    min-width: 550px;
+/* SalesAllContent */
+.SalesAllStyleImg{
+    max-width: 466px;
+    width: 100%;
+    min-width: 200px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    -webkit-box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
+-moz-box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
+box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
 }
-@media(max-width:1380px){
-.BuilderBlock2Img{
-    min-width: 450px;
-}  
+.SalesAllStyleTitle{
+    color:#222222e1;
+    font-size: 24px;
+    font-family: Jost;
+    font-weight: 400;
+    margin: 5px;
+    width: 100%;
 }
-@media(max-width:1450px){
-    .BuilderBlock{
-        display: flex;
+.SalesAllStyleText{
+    font-size: 18px;
+    color: #666666;
+    font-family: Jost;
+    font-weight: 400;
+    width: 100%;
+    margin: 5px;
 }
+.SalesBlockMargin{
+    margin-bottom: 0px;
 }
-
-@media(max-width:1130px){
-    .BuilderBlock{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+@media(max-width:1100px){
+    .SalesAllStyleTitle{
+        font-size: 20px;
     }
-    .BuilderBlock2Img{
-        min-width: 550px;
-    }
-    .BuilderBlock1{
-        width: 65%;
-    }
-    .BuilderBlock2{
-        margin-top: 50px;
-        width: 65%;
-    }
-}
-@media(max-width:768px){
-    .BuilderBlock2Img{
-        min-width: 450px;
-    }
-    .BuilderBlock1{
-        width: 80%;
-        margin-left: 0px;
-    }
-    .BuilderBlock2{
-        margin-top: 20px;
-        width: 80%;
-    }
-}
-@media(max-width:520px){
-    .BuilderBlock2Img{
-        min-width: 300px;
-    }
-    .BuilderBlock1{
-        width: 89%;
-    }
-    .BuilderBlock1Text{
-        font-size: 18px;
-    }
-    .BuilderBlock1Title{
-        font-size: 30px;
-    }
-    .BuilderColor{
-        font-size: 14px;
-    }
-    .BuilderBlock2{
-        margin-top: 20px;
-        width: 89%;
-    }
-}
-@media(max-width:340px){
-    .BuilderBlock2Img{
-        min-width: 200px;
+    .SalesAllStyleText{
+        font-size: 15px;
     } 
 }
-
-
+@media(max-width: 768px){
+    .SalesBlockContent{
+        padding: 10px;
+        display: flex;
+        width: 100%;
+        flex-direction: column; 
+        align-items: center;
+        justify-items: center;
+    }
+    .SalesAllStyleTitle{
+        font-size: 24px;
+    }
+    .SalesAllStyleText{
+        font-size: 18px;
+    } 
+    .SalesTitle{
+        font-size: 36px;
+    }
+    .SalesSpan{
+        font-size: 38px;
+}
+}
+/* SalesBlock1 */
+.SalesBlockMinContent1{
+    padding: 5px;
+    max-width: 466px;
+    max-height: 406px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* SalesBlock2 */
+.SalesBlockMinContent2{
+    padding: 5px;
+    max-width: 466px;
+    max-height: 406px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* SalesBlock3 */
+.SalesBlockMinContent3{
+    padding: 5px;
+    max-width: 466px;
+    max-height: 406px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* SalesBlock4 */
+.SalesBlockMinContent4{
+    padding: 5px;
+    max-width: 466px;
+    max-height: 406px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* SalesBlock5 */
+.SalesBlockMinContent5{
+    padding: 5px;
+    max-width: 466px;
+    max-height: 406px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* SalesBlock6 */
+.SalesBlockMinContent6{
+    padding: 5px;
+    max-width: 466px;
+    max-height: 406px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* SalesBlock7 */
+.SalesBlockMinContent7{
+    padding: 5px;
+    max-width: 466px;
+    max-height: 406px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* SalesBlock8 */
+.SalesBlockMinContent8{
+    padding: 5px;
+    max-width: 466px;
+    max-height: 406px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* SalesBlock9 */
+.SalesBlockMinContent9{
+    padding: 5px;
+    max-width: 466px;
+    max-height: 406px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* SalesBlock10 */
+.SalesBlockMinContent10{
+    padding: 5px;
+    max-width: 466px;
+    max-height: 406px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* SalesBlock11 */
+.SalesBlockMinContent11{
+    padding: 5px;
+    max-width: 466px;
+    max-height: 406px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* SalesBlock12 */
+.SalesBlockMinContent12{
+    padding: 5px;
+    max-width: 466px;
+    max-height: 406px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+@media(max-width:490px){
+    .SalesAllStyleImg{
+        min-width: 100px;
+    }
+    .SalesAllStyleTitle{
+        width: auto;
+    }
+    .SalesAllStyleText{
+        width: auto;
+    }
+    .SalesBlockMinContent1{
+    width: 90%;
+    }
+    .SalesBlockMinContent2{
+    width: 90%;
+    }
+    .SalesBlockMinContent3{
+    width: 90%;
+    }
+    .SalesBlockMinContent4{
+    width: 90%;
+    }
+    .SalesBlockMinContent5{
+    width: 90%;
+    }
+    .SalesBlockMinContent6{
+    width: 90%;
+    }
+    .SalesBlockMinContent7{
+    width: 90%;
+    }
+    .SalesBlockMinContent8{
+    width: 90%;
+    }
+    .SalesBlockMinContent9{
+        width: 90%;  
+    }
+    .SalesBlockMinContent10{
+        width: 90%;  
+    }
+    .SalesBlockMinContent11{
+        width: 90%;  
+    }            
+    .SalesBlockMinContent12{
+        width: 90%;  
+    }
+}
+@media(max-width:380px){
+    .SalesAllStyleTitle{
+        font-size: 18px;
+    }
+    .SalesAllStyleText{
+        font-size: 15px;
+    }
+    .SalesTitle{
+        font-size: 32px;
+    }
+    .SalesSpan{
+        font-size: 34px;
+    }
+}
