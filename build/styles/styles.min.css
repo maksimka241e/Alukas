@@ -1,5 +1,4 @@
 
-
 .ElegantBlock{
     background-size: cover;
     resize: both;
@@ -127,6 +126,7 @@
 
 
 
+
 /* styles.css */
 #preloader {
     position: fixed;
@@ -193,8 +193,411 @@
     background-position: 0% 50%;
   }
 }  
+.AlukasBlock{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background:rgb(246, 241, 239);
+    justify-content: center;
+    align-items: center;
+}
+/* block1 */
+.AlukasBlockTitle{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.AlukasTitle{
+    font-size: 40px;
+    color: #222222e1;
+    font-family: Jost;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+.AlukasText{
+    font-size: 18px;
+    font-family: Jost;
+    margin: 5px;
+    width: 70%;
+    text-align: center;
+    font-weight: 400;
+    color: #222222c5;
+}
+/* block2 */
+.AlukasAllImg{
+    max-width: 320px;
+    height: 100%;
+    cursor: pointer;
+    width: 100%;
+    -webkit-box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
+-moz-box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
+box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
+    transition: 0.5s;
+}
+.AlukasBlockContent{
+    padding: 10px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: auto auto auto auto;
+    padding-bottom: 70px;
+}
+@media (max-width: 1450px){
+.AlukasBlock {
+    display: flex;
+}
+}
+@media(max-width: 768px){
+.AlukasBlockContent{
+    gap: 40px;
+    grid-template-columns: auto;
+}
+.AlukasTitle{
+    font-size: 30px;
+}
+.AlukasText{
+    font-size: 16px;
+}
+}
+@media(max-width:570px){
+.AlukasText{
+    width: 100%;
+}
+}
+.AlukasTitle{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.AlukasTitle.active{
+    transform: translateY(0);
+    opacity: 0.9;
+} 
+.AlukasText{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.AlukasText.active{
+    transform: translateY(0);
+    opacity: 0.9;
+} 
+/* imges */
+.AlukasBlockImg{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.AlukasBlockImg.active{
+    transform: translateY(0);
+    opacity: 0.9;
+} 
+.AlukasBlockImg1{
+    transition: 1s all ease;
+    transform:  translateY(40px);
+    opacity: 0;
+}
+.AlukasBlockImg1.active{
+    transform: translateY(0);
+    opacity: 0.9;
+} 
+.AlukasBlockImg2{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.AlukasBlockImg2.active{
+    transform: translateY(0);
+    opacity: 0.9;
+} 
+.AlukasBlockImg3{
+    transition: 1s all ease;
+    transform:  translateY(40px);
+    opacity: 0;
+}
+.AlukasBlockImg3.active{
+    transform: translateY(0);
+    opacity: 0.9;
+} 
+.AlukasBlockImg:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.AlukasBlockImg1:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.AlukasBlockImg2:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.AlukasBlockImg3:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.CoreBlockTitle_title{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreBlockTitle_title.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
 
+.CoreBlockTitle_text{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreBlockTitle_text.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.CoreClick_import{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreClick_import.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.CoreResponsive_ready{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreResponsive_ready.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.CoreUnlimited_colors{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreUnlimited_colors.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.CoreOptimised_code{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreOptimised_code.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.CoreSeo_optimized{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreSeo_optimized.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
 
+.CoreCross_browser{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreCross_browser.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+
+.CoreTranslatable_ready{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreTranslatable_ready.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+
+.CoreChild_theme{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreChild_theme.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+
+.CoreDetailed_Documentation{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreDetailed_Documentation.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+
+.CoreGoogle_fonts{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreGoogle_fonts.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+
+.CorePowerful_theme{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CorePowerful_theme.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+
+.CoreMega_Menu{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreMega_Menu.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.CoreBlock{
+    display: flex;
+    width: 100%;
+    background: rgb(246, 241, 239);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.CoreBlockContent{
+    display: flex;
+    width: auto;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+/* block1 */
+.CoreBlockTitle{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.CoreBlockTitle_title{
+    font-size: 40px;
+    color:#222222e1;
+    font-family: Jost;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px;
+}
+.CoreBlockTitle_text{
+    font-size: 20px;
+    font-family: Jost;
+    text-align: center;
+    font-weight: 400;
+    color:#222222e1;
+}
+.CoreBlockTitle_span {
+    font-size: 44px;
+    border-bottom: 3px solid #fcb900;
+    color: #222222;
+}
+/* block2 */
+/* AllStyle */
+.CoreStyle_allBlock{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-width: 319px;
+    align-items: center;
+    width: 100%;
+    height: 240px;
+    padding: 15px;
+}
+.CoreStyle_allImg{
+    max-width: 108px;
+    width: 100%;
+    max-height: 108px;
+    height: 100%;
+    padding-bottom: 10px;
+}
+.CoreStyle_allTitle{
+    text-align: center;
+    font-size: 20px;
+    color:#222222e1;
+    font-family: Jost;
+    font-weight: 400;
+    margin: 1px;
+}
+.CoreStyle_allText{
+    text-align: center;
+    font-size: 15px;
+    color: #666666;
+    font-family: Jost;
+    font-weight: 400;
+    margin: 0;
+}
+/* MINBLOCK1 */
+.CoreBlockAllOne{
+    display: flex;
+    flex-direction: row;
+}
+/* MINBLOCK2 */
+.CoreBlockAllTwo{
+    display: flex;
+    flex-direction: row;
+}
+/* MINBLOCK3 */
+.CoreBlockAllThree{
+    display: flex;
+    flex-direction: row;
+}
+@media(max-width:1070px){
+    .CoreStyle_allBlock{
+        height: 100%;
+    }
+}
+@media(max-width:768px){
+    .CoreBlockAllOne{
+        flex-direction: column;
+        align-items: center;
+    }
+    .CoreBlockAllTwo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .CoreBlockAllThree{
+        flex-direction: column;
+        align-items: center;
+    }
+    .CoreStyle_allBlock {
+        width: 92%;
+        max-width: 700px;
+    }
+}
+@media(max-width:370px){
+    .CoreBlockTitle_title {
+        font-size: 35px;
+        padding: 5px;
+    }    
+    .CoreBlockTitle_span {
+        font-size: 40px;
+    }
+}
 .BuilderBlock1{
     transition: 1s all ease;
     transform:  translateX(-40px);
@@ -1631,153 +2034,6 @@ box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
     max-width: 435px;
 }
 
-.AlukasBlock{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    background:rgb(246, 241, 239);
-    justify-content: center;
-    align-items: center;
-}
-/* block1 */
-.AlukasBlockTitle{
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.AlukasTitle{
-    font-size: 40px;
-    color: #222222e1;
-    font-family: Jost;
-    font-weight: 400;
-    text-align: center;
-    margin: 0;
-}
-.AlukasText{
-    font-size: 18px;
-    font-family: Jost;
-    margin: 5px;
-    width: 70%;
-    text-align: center;
-    font-weight: 400;
-    color: #222222c5;
-}
-/* block2 */
-.AlukasAllImg{
-    max-width: 320px;
-    height: 100%;
-    cursor: pointer;
-    width: 100%;
-    -webkit-box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
--moz-box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
-box-shadow: 4px -4px 39px 6px rgba(34, 34, 34, 0.2);
-    transition: 0.5s;
-}
-.AlukasBlockContent{
-    padding: 10px;
-    display: grid;
-    gap: 40px;
-    grid-template-columns: auto auto auto auto;
-    padding-bottom: 70px;
-}
-@media (max-width: 1450px){
-.AlukasBlock {
-    display: flex;
-}
-}
-@media(max-width: 768px){
-.AlukasBlockContent{
-    gap: 40px;
-    grid-template-columns: auto;
-}
-.AlukasTitle{
-    font-size: 30px;
-}
-.AlukasText{
-    font-size: 16px;
-}
-}
-@media(max-width:570px){
-.AlukasText{
-    width: 100%;
-}
-}
-.AlukasTitle{
-    transition: 1s all ease;
-    transform:  translateY(-40px);
-    opacity: 0;
-}
-.AlukasTitle.active{
-    transform: translateY(0);
-    opacity: 0.9;
-} 
-.AlukasText{
-    transition: 1s all ease;
-    transform:  translateY(-40px);
-    opacity: 0;
-}
-.AlukasText.active{
-    transform: translateY(0);
-    opacity: 0.9;
-} 
-/* imges */
-.AlukasBlockImg{
-    transition: 1s all ease;
-    transform:  translateY(-40px);
-    opacity: 0;
-}
-.AlukasBlockImg.active{
-    transform: translateY(0);
-    opacity: 0.9;
-} 
-.AlukasBlockImg1{
-    transition: 1s all ease;
-    transform:  translateY(40px);
-    opacity: 0;
-}
-.AlukasBlockImg1.active{
-    transform: translateY(0);
-    opacity: 0.9;
-} 
-.AlukasBlockImg2{
-    transition: 1s all ease;
-    transform:  translateY(-40px);
-    opacity: 0;
-}
-.AlukasBlockImg2.active{
-    transform: translateY(0);
-    opacity: 0.9;
-} 
-.AlukasBlockImg3{
-    transition: 1s all ease;
-    transform:  translateY(40px);
-    opacity: 0;
-}
-.AlukasBlockImg3.active{
-    transform: translateY(0);
-    opacity: 0.9;
-} 
-.AlukasBlockImg:hover{
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
-.AlukasBlockImg1:hover{
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
-.AlukasBlockImg2:hover{
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
-.AlukasBlockImg3:hover{
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
 @keyframes open {
     0%{ 
         transform: translateX(-300px);
@@ -2446,7 +2702,8 @@ html, body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: rgb(246, 241, 239);
+    background: linear-gradient(rgb(246, 241, 239) ,rgba(246, 241, 239, 0.433));
+    /* background: rgb(246, 241, 239); */
     width: 100%;
 }
 .PowerfulBlock1{
@@ -2524,6 +2781,7 @@ html, body {
 }
 /* block3 */
 .PowerfulBlock3{
+    margin-bottom: 80px;
     width: 90%;
     padding: 10px;
     display: flex;
@@ -2602,6 +2860,273 @@ html, body {
     .PowerfulTitle4{
         font-size: 15px;
         width: 65%;
+    }
+}
+.QuestionsTitle{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.QuestionsTitle.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.QuestionsText{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.QuestionsText.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.QuestionsCard1{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.QuestionsCard1.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.QuestionsCard2{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.QuestionsCard2.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.QuestionsCard3{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.QuestionsCard3.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+
+.QuestionsBlock{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.QuestionsBlockContent{
+    display: flex;
+    padding: 15px;
+    gap: 25px;
+    flex-direction: row;
+}
+/* block1 */
+.QuestionsBlockTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.QuestionsTitle{
+    font-size: 40px;
+    color:#222222e1;
+    font-family: Jost;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px;
+}
+.QuestionsText{
+    font-size: 20px;
+    font-family: Jost;
+    text-align: center;
+    font-weight: 400;
+    color:#222222e1;
+}
+/* block2 */
+.QuestionsCard1ContentText2{
+    width: 165px;
+    border-bottom: 2px solid #222222;
+    transition: 0.3s;
+}
+.QuestionsCard1ContentText2:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: translateY(-5px);
+    border-bottom: 2px solid #1d1d1d87;
+}
+.QuestionsCard1{
+    transition: 1s all ease;
+}
+.QuestionsCard1:hover{
+    transition: 1s all ease;
+    transform:  translateY(-10px);
+}
+/* block3 */
+.QuestionsCard2ContentText2{
+    width: 90px;
+    border-bottom: 2px solid #222222;
+    transition: 0.3s;
+}
+.QuestionsCard2ContentText2:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: translateY(-5px);
+    border-bottom: 2px solid #1d1d1d87;
+}
+.QuestionsCard2{
+    transition: 1s all ease;
+}
+.QuestionsCard2:hover{
+    transition: 1s all ease;
+    transform:  translateY(-10px);
+}
+/* block4 */
+.QuestionsCard3ContentText2{
+    width: 135px;
+    border-bottom: 2px solid #222222;
+    transition: 0.3s;
+}
+.QuestionsCard3ContentText2:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: translateY(-5px);
+    border-bottom: 2px solid #1d1d1d87;
+}
+.QuestionsCard3{
+    transition: 1s all ease;
+}
+.QuestionsCard3:hover{
+    transition: 1s all ease;
+    transform:  translateY(-10px);
+}
+/* allStyle */
+.Questions_allCards{
+    cursor: default;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    padding: 20px;
+    max-width: 390px;
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #E3E3E3;
+    border-radius: 12px 12px 12px 12px;
+}
+.Questions_allTitle{
+    font-size: 24px;
+    color:#222222;
+    font-family: Jost;
+    font-weight: 400;
+    margin: 1px;
+}
+.Questions_allText1{
+    font-size: 16px;
+    color:#222222b9;
+    font-family: Jost;
+    font-weight: 400;
+    margin: 1px;
+}
+.Questions_allText2{
+    color:#222222e1;
+    font-size: 16px;
+    font-family: Jost;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+.Questions_allImg{
+    max-width: 72px;
+    width: auto;
+}
+@media(max-width:940px) {
+    .Questions_allTitle{
+        font-size: 20px;
+    }
+    .Questions_allText1{
+        font-size: 13px;
+    }
+    .Questions_allText2{
+        font-size: 13px;
+    }  
+    .QuestionsCard1ContentText2{
+        width: 100%;
+    }
+    .QuestionsCard2ContentText2{
+        width: 100%;
+    }
+    .QuestionsCard3ContentText2{
+        width: 100%;
+    }
+}
+@media(max-width:768px) {
+    .QuestionsBlockContent{
+        display: flex;
+        padding: 15px;
+        gap: 25px;
+        flex-direction: column;
+    }
+    .QuestionsCard1ContentText2{
+        width: 165px;
+    }
+    .QuestionsCard2ContentText2{
+        width: 90px;
+    }
+    .QuestionsCard3ContentText2{
+        width: 135px;
+    }
+    .Questions_allTitle{
+        font-size: 24px;
+    }
+    .Questions_allText1{
+        font-size: 16px;
+    }
+    .Questions_allText2{
+        font-size: 16px;
+    } 
+    .Questions_allCards{  
+        width: 92%;
+        padding: 0;
+        max-width: 590px;
+    }
+    .QuestionsBlockContent {
+        width: 90%;
+        align-items: center;
+    }
+}
+@media(max-width:500px){
+    .Questions_allCards{  
+        width: 92%;
+        max-width: 490px;
+    }
+    .QuestionsBlockContent {
+        width: 90%;
+    }
+}
+@media(max-width:320px) {
+    .Questions_allTitle{
+        font-size: 18px;
+    }
+    .Questions_allText1{
+        font-size: 13px;
+    }
+    .Questions_allText2{
+        font-size: 13px;
+    }  
+    .QuestionsCard1ContentText2{
+        width: 100%;
+    }
+    .QuestionsCard2ContentText2{
+        width: 100%;
+    }
+    .QuestionsCard3ContentText2{
+        width: 100%;
     }
 }
 .SalesTitle{

@@ -1,0 +1,45 @@
+.QuestionsTitle{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.QuestionsTitle.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.QuestionsText{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.QuestionsText.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.QuestionsCard1{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.QuestionsCard1.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.QuestionsCard2{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.QuestionsCard2.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.QuestionsCard3{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.QuestionsCard3.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}

@@ -3,7 +3,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: rgb(246, 241, 239);
+    background: linear-gradient(rgb(246, 241, 239) ,rgba(246, 241, 239, 0.433));
+    /* background: rgb(246, 241, 239); */
     width: 100%;
 }
 .PowerfulBlock1{
@@ -81,6 +82,7 @@
 }
 /* block3 */
 .PowerfulBlock3{
+    margin-bottom: 80px;
     width: 90%;
     padding: 10px;
     display: flex;

@@ -1,0 +1,134 @@
+.CoreBlockTitle_title{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreBlockTitle_title.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+
+.CoreBlockTitle_text{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreBlockTitle_text.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.CoreClick_import{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreClick_import.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.CoreResponsive_ready{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreResponsive_ready.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.CoreUnlimited_colors{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreUnlimited_colors.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.CoreOptimised_code{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreOptimised_code.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.CoreSeo_optimized{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreSeo_optimized.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+
+.CoreCross_browser{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreCross_browser.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+
+.CoreTranslatable_ready{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreTranslatable_ready.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+
+.CoreChild_theme{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreChild_theme.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+
+.CoreDetailed_Documentation{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreDetailed_Documentation.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+
+.CoreGoogle_fonts{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreGoogle_fonts.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+
+.CorePowerful_theme{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CorePowerful_theme.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+
+.CoreMega_Menu{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.CoreMega_Menu.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
