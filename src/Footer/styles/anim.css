@@ -1,0 +1,81 @@
+.FooterContent1Img{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FooterContent1Img.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.FooterContent1Title{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FooterContent1Title.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.FooterContent2Title{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FooterContent2Title.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.FooterContent2Text{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FooterContent2Text.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.FooterMin1{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FooterMin1.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.FooterMin2{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FooterMin2.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.FooterMin3{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FooterMin3.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.FooterContent2Btn{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FooterContent2Btn.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.FooterContent2Text2{
+    transition: 1s all ease;
+    transform:  translateY(-40px);
+    opacity: 0;
+}
+.FooterContent2Text2.active{
+    transform: translateY(0);
+    opacity: 0.9;
+}
