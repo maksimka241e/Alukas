@@ -11,6 +11,7 @@ function OpenBlockPages(){
 
         render(){
             //найти картинку и при нажатии чтоб она менялась в верх а при  обратное положение
+            this.img.classList.toggle('active')
             this.block.classList.toggle('active')
             this.btn.classList.toggle('active')
         }

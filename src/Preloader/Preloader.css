@@ -12,6 +12,7 @@
             animation: AnimateBG 20s ease infinite;
             opacity: 1; 
     display: flex; 
+    /* позже изменить */
     justify-content: center;
     align-items: center;
     z-index: 9999;

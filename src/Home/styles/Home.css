@@ -113,12 +113,27 @@ html, body {
 }
 .adaptiveHomeMin1Title1Img{
     width: 10px;
+    transition: 0.6s;
+}
+.adaptiveHomeMin1Title1Img.active{
+    transform: rotate(180deg);
+    transition: 0.6s;
 }
 .adaptiveHomeMin4Title4Img{
     width: 10px;
+    transition: 0.6s;
+}
+.adaptiveHomeMin4Title4Img.active{
+    transform: rotate(180deg);
+    transition: 0.6s;
 }
 .adaptiveHomeMin5Title5Img{
     width: 10px;
+    transition: 0.6s;
+}
+.adaptiveHomeMin5Title5Img.active{
+    transform: rotate(180deg);
+    transition: 0.6s;
 }
 /* adaptiveModal */
 .modalAdaptive{

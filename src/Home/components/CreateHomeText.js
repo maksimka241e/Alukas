@@ -1,7 +1,7 @@
 function OpenBlockHome(){
     const adaptiveHomeMin1Content1 = document.querySelector('.adaptiveHomeMin1Content1')
     const adaptiveHomeMin1Title1Img = document.querySelector('.adaptiveHomeMin1Title1Img')
-    
+
     class openBlockHome{
         constructor(){
             this.img = adaptiveHomeMin1Title1Img
@@ -10,6 +10,7 @@ function OpenBlockHome(){
         }
         render(){
             //найти картинку и при нажатии чтоб она менялась в верх а при  обратное положение
+            this.img.classList.toggle('active')
             this.block.classList.toggle('active')
             this.btn.classList.toggle('active')
         }
