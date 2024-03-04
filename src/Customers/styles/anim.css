@@ -1,0 +1,19 @@
+/* text */
+.CustomersBlock1{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.CustomersBlock1.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
+.slider{
+    transition: 1s all ease;
+    transform:  translateX(40px);
+    opacity: 0;
+}
+.slider.active{
+    transform: translateX(0);
+    opacity: 0.9;
+}
